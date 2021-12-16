@@ -1,4 +1,5 @@
-//
-body {
-  background-color: #ff0;
+.header {
+    &__container {
+        @include flex-all-sb;
+    }
 }
